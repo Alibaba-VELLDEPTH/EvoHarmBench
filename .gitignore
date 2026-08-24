@@ -1,0 +1,59 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+ak.txt
+secrets.*
+credentials.*
+
+# Python and tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage*
+htmlcov/
+build/
+dist/
+
+# Local models, caches and experiment artifacts
+models/
+checkpoints/
+outputs/
+runs/
+logs/
+*.log
+*.tar
+*.tar.gz
+*.zip
+*.bundle
+wandb/
+mlruns/
+
+# Paper and local analysis artifacts
+paper/
+papers/
+drafts/
+analysis/
+figures/
+*.tex
+*.pdf
+*.pptx
+*.docx
+*.xlsx
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
